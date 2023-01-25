@@ -1,3 +1,5 @@
 from Funções import Interface
+import re
 
-print(Interface.teste(2,4))
+Interface.Menus.MenuBemVindo()
+Interface.Menus.MenuEscolhas()
