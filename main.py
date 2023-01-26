@@ -1,5 +1,5 @@
 from Funções import Interface
-from Funções import Games
+from Funções import Mais
 import re
 
 
@@ -21,8 +21,8 @@ while True:
             break
     if escolhaMenuPrincipal == '1':
         while True:
-            Games.Soma.MenuSoma()
-            Games.Soma.MenuSomaEscolha()
+            Mais.MenuSoma()
+            Mais.MenuSomaEscolha()
             escolhaSomaDificuldade = str(input('Digite uma opção: '))
             if re.fullmatch(re.compile('[1-4]'),escolhaSomaDificuldade) == None:
                 print()
@@ -30,16 +30,17 @@ while True:
                 print(f'{"Por favor escolha umas das opções [1,2,3,4]".center(100)}')
                 print('#'*100)
             if escolhaSomaDificuldade == '1' :
-                 Games.Soma.SomaFacil()
+                Mais.SomaFacil()
             elif escolhaSomaDificuldade == '2':
-                Games.Soma.SomaMédio()
+                Mais.SomaMédio()
             elif escolhaSomaDificuldade == '3':
-                Games.Soma.SomaDificil()
+                Mais.SomaDificil()
             elif escolhaSomaDificuldade == '4' :
                  break
                       
     if escolhaMenuPrincipal == '5':
         break
-             
+
+
     
 

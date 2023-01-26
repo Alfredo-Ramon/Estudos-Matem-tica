@@ -1,7 +1,7 @@
 class Menus:
     def MenuPrincipalBemVindo():
         print('#'*100)
-        print(F'{"BEM VINDO AO APLICATIVO: Respota Rápida".center(100)}')
+        print(F'{"BEM VINDO AO APLICATIVO: Resposta Rápida".center(100)}')
         print('#'*100)
     
     def MenuPrincipalEscolhas():
