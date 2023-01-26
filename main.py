@@ -2,6 +2,7 @@ from Funções import Interface
 from Funções import Games
 import re
 
+
 Interface.Menus.MenuPrincipalBemVindo()
 print()
 print()
@@ -30,7 +31,11 @@ while True:
                 print('#'*100)
             if escolhaSomaDificuldade == '1' :
                  Games.Soma.SomaFacil()
-            if escolhaSomaDificuldade == '4' :
+            elif escolhaSomaDificuldade == '2':
+                Games.Soma.SomaMédio()
+            elif escolhaSomaDificuldade == '3':
+                Games.Soma.SomaDificil()
+            elif escolhaSomaDificuldade == '4' :
                  break
                       
     if escolhaMenuPrincipal == '5':
