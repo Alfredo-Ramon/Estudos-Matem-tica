@@ -1,5 +1,6 @@
 from Funções import Interface
 from Funções import Mais
+from Funções import X
 import re
 
 
@@ -37,7 +38,23 @@ while True:
                 Mais.SomaDificil()
             elif escolhaSomaDificuldade == '4' :
                  break
-                      
+    if escolhaMenuPrincipal == '3':
+        while True:
+            X.MenuMultiplicação()
+            X.MenuMultiplicaçãoEscolha
+            escolhaMultiplicaçãoDificuldade = str(input('Digite uma opção: '))
+            if re.fullmatch(re.compile('[1-3]'),escolhaMultiplicaçãoDificuldade) == None:
+                print()
+                print('#'*100)
+                print(f'{"Por favor escolha umas das opções [1,2,3]".center(100)}')
+                print('#'*100)
+            if escolhaMultiplicaçãoDificuldade == '1' :
+                X.MultiplicaçãoFacil()
+            elif escolhaMultiplicaçãoDificuldade == '2':
+                X.MultiplicaçãoDificil()
+            elif escolhaMultiplicaçãoDificuldade == '3':
+                break
+                
     if escolhaMenuPrincipal == '5':
         break
 

@@ -156,8 +156,3 @@ def SomaDificil():
                         print('Menos'.center(100))
                         print('#'*100)
     print(f'Você errou: {erros} vezes')   
-               
-                    
-if __name__ == '__main__':
-    SomaFacil()
-    SomaMédio()     
