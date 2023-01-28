@@ -19,7 +19,7 @@ def SubtraçãoFacil():
     erros = 0
     print()
     print()
-    print(F'{"Multiplicação".center(100)}')
+    print(F'{"Subtração".center(100)}')
     print('_'*100)
     print(F'{"Facil: O programa ira fazer 10 contas todas contendo só uma unidade".center(100)}')
     print('_'*100)

@@ -2,6 +2,7 @@ from Funções import Interface
 from Funções import Mais
 from Funções import Menos
 from Funções import Vezes
+from Funções import Dividir
 import re
 
 
@@ -21,6 +22,9 @@ while True:
             print()            
         else:
             break
+            
+            
+            
     if escolhaMenuPrincipal == '1':
         while True:
             Mais.MenuSoma()
@@ -39,6 +43,9 @@ while True:
                 Mais.SomaDificil()
             elif escolhaSomaDificuldade == '4' :
                  break
+             
+             
+             
     elif escolhaMenuPrincipal == '2':
         while True:
             Menos.MenuSubtração()
@@ -61,7 +68,8 @@ while True:
             elif escolhaSubtraçãoDificuldade == '5':
                 break
             
-            
+
+       
     elif escolhaMenuPrincipal == '3':
         while True:
             Vezes.MenuMultiplicação()
@@ -78,8 +86,25 @@ while True:
                 Vezes.MultiplicaçãoDificil()
             elif escolhaMultiplicaçãoDificuldade == '3':
                 break
+    
+    elif escolhaMenuPrincipal =='4':
+        while True:
+            Dividir.MenuDivisão()
+            Dividir.MenuDivisãoEscolha()
+            escolhaDivisãoDificuldade = str(input('Digite uma opção: '))
+            if re.fullmatch(re.compile('[1-2]'),escolhaDivisãoDificuldade) == None :
+                print()
+                print('#'*100)
+                print(f'{"Por favor escolha umas das opções [1,2]".center(100)}')
+                print('#'*100)
+            if escolhaDivisãoDificuldade == '1' :
+                Dividir.DivisãoFacil()
+            elif escolhaDivisãoDificuldade == '2':
+                break
                 
-    if escolhaMenuPrincipal == '5':
+    
+                
+    elif escolhaMenuPrincipal == '5':
         break
 
 
