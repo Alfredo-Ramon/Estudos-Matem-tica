@@ -9,7 +9,7 @@ def MenuMultiplicação():
 def MenuMultiplicaçãoEscolha():
     print(f'[1]: Fáci')
     print(f'[2]: Dificil')
-    print(f'[3]: Finalizar')
+    print(f'[3]: Voltar ao Menu Principal ')
     print('_'*100)
 
 

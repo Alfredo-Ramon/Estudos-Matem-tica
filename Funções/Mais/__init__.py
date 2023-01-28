@@ -10,13 +10,10 @@ def MenuSomaEscolha():
     print(f'[1]: Fáci')
     print(f'[2]: Médio')
     print(f'[3]: Dificil')
-    print(f'[4]: Finalizar')
+    print(f'[4]: Voltar para o Menu Principal')
     print('_'*100)
         
 def SomaFacil():
-    """_Função de contas modo facil_
-    Vai usar a biblioteca random, random ajuda a fazer as contas serem aléatorias 
-    """
     import random
     erros = 0
     print()

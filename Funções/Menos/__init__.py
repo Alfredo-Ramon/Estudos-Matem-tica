@@ -8,10 +8,10 @@ def MenuSubtração():
     
 def MenuSubtraçãoEscolha():
     print(f'[1]: Fácil')
-    print(f'[2]: Fácil(Negativos)')
+    print(f'[2]: Fácil (Negativos)')
     print(f'[3]: Médio')
-    print(f'[4]: Médio(Negativos)')
-    print(f'[5]: Finalizar')
+    print(f'[4]: Médio (Negativos)')
+    print(f'[5]: Voltar para o Menu Principal ')
     print('_'*100)
     
 def SubtraçãoFacil():
@@ -69,7 +69,7 @@ def SubtraçãoFacilNegativo():
     erros = 0
     print()
     print()
-    print(F'{"Multiplicação".center(100)}')
+    print(F'{"Subtração".center(100)}')
     print('_'*100)
     print(F'{"Facil: O programa ira fazer 10 contas todas contendo só uma unidade (O resultado pode ser negativo)".center(100)}')
     print('_'*100)
@@ -117,7 +117,7 @@ def SubtraçãoMédio():
     erros = 0
     print()
     print()
-    print(F'{"Multiplicação".center(100)}')
+    print(F'{"Subtração".center(100)}')
     print('_'*100)
     print(F'{"Médio: O programa ira fazer 10 contas, contendo dezena e unidade".center(100)}')
     print('_'*100)
@@ -167,7 +167,7 @@ def SubtraçãoMédioNegativo():
     erros = 0
     print()
     print()
-    print(F'{"Multiplicação".center(100)}')
+    print(F'{"Subtração".center(100)}')
     print('_'*100)
     print(F'{"Médio: O programa ira fazer 10 contas, contendo dezena e unidade (O resultado pode ser negativo)  ".center(100)}')
     print('_'*100)
