@@ -14,6 +14,9 @@ def MenuSomaEscolha():
     print('_'*100)
         
 def SomaFacil():
+    """_Função de contas modo facil_
+    Vai usar a biblioteca random, random ajuda a fazer as contas serem aléatorias 
+    """
     import random
     erros = 0
     print()
@@ -156,3 +159,4 @@ def SomaDificil():
                         print('Menos'.center(100))
                         print('#'*100)
     print(f'Você errou: {erros} vezes')   
+
