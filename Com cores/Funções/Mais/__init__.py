@@ -3,7 +3,7 @@ def MenuSoma():
         print()
         print(F'\33[32m{"Adição".center(100)}\33[m')
         print('\33[32;45m \33[m'*100)
-        print(F'\33[32m{"Escolha uma dificuldade".center(100)}\33[m')
+        print(F'\33[36m{"Escolha uma dificuldade".center(100)}\33[m')
         print('\33[45m \33[m'*100)
     
 def MenuSomaEscolha():

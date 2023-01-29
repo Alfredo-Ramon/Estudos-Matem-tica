@@ -67,9 +67,7 @@ while True:
                 Menos.SubtraçãoMédioNegativo()
             elif escolhaSubtraçãoDificuldade == '5':
                 break
-            
-
-       
+           
     elif escolhaMenuPrincipal == '3':
         while True:
             Vezes.MenuMultiplicação()
@@ -101,11 +99,12 @@ while True:
                 Dividir.DivisãoFacil()
             elif escolhaDivisãoDificuldade == '2':
                 break
-                
-    
-                
+                          
     elif escolhaMenuPrincipal == '5':
         break
+
+
+
 
 
     

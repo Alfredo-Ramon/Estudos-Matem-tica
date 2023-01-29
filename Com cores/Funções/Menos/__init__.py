@@ -31,7 +31,7 @@ def SubtraçãoFacil():
             Numero2 = random.randint(1,8)
             while Numero1 < Numero2:
                 Numero2 = random.randint(1,8)
-            print(f'\33[36m{Conta+1}:\33[m {Numero1}\33[32m-\33[m{Numero2} \33[36m=\33[m \33[31m?\33[m')  
+            print(f'\33[36m{Conta+1}:\33[m {Numero1}\33[35m-\33[m{Numero2} \33[36m=\33[m \33[31m?\33[m')  
             while True:
                 try:
                     resposta = int(input('Resposta: ')) 
@@ -79,7 +79,7 @@ def SubtraçãoFacilNegativo():
                 print('\33[45m \33[m'*100)
                 Numero1 = random.randint(1,9)
                 Numero2 = random.randint(1,9)
-                print(f'\33[36m{Conta+1}:\33[m {Numero1}\33[32m-\33[m{Numero2} \33[36m=\33[m \33[31m?\33[m')  
+                print(f'\33[36m{Conta+1}:\33[m {Numero1}\33[35m-\33[m{Numero2} \33[36m=\33[m \33[31m?\33[m')  
                 while True:
                     try:
                         resposta = int(input('Resposta: ')) 
@@ -129,7 +129,7 @@ def SubtraçãoMédio():
             Numero2 = random.randint(1,98)
             while Numero1 < Numero2:
                 Numero2 = random.randint(1,98)
-            print(f'\33[36m{Conta+1}:\33[m {Numero1}\33[32m-\33[m{Numero2} \33[36m=\33[m \33[31m?\33[m')  
+            print(f'\33[36m{Conta+1}:\33[m {Numero1}\33[35m-\33[m{Numero2} \33[36m=\33[m \33[31m?\33[m')  
             while True:
                 try:
                     resposta = int(input('Resposta: ')) 
@@ -177,7 +177,7 @@ def SubtraçãoMédioNegativo():
                 print('\33[45m \33[m'*100)
                 Numero1 = random.randint(1,99)
                 Numero2 = random.randint(1,98)
-                print(f'\33[36m{Conta+1}:\33[m {Numero1}\33[32m-\33[m{Numero2} \33[36m=\33[m \33[31m?\33[m')  
+                print(f'\33[36m{Conta+1}:\33[m {Numero1}\33[35m-\33[m{Numero2} \33[36m=\33[m \33[31m?\33[m')  
                 while True:
                     try:
                         resposta = int(input('Resposta: ')) 
