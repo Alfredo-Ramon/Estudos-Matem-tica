@@ -12,7 +12,7 @@ class Menus:
         print(f'\33[36m{"Escolha uma opção".center(100)}\33[m')
         print('\33[32;45m \33[m'*100)
         print(f'\33[32m[1]: Adição\33[m')
-        print(f'\33[36m[2]: Subtração\33[m')
+        print(f'\33[35m[2]: Subtração\33[m')
         print(f'\33[34m[3]: Multiplicação\33[m')
         print(f'\33[33m[4]: Divisão \33[m')
         print(f'\33[31m[5]: Finalizar\33[m')

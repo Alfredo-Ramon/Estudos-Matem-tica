@@ -159,4 +159,4 @@ def SomaDificil():
 
 if __name__ == '__main__':
     MenuSomaEscolha()
-    SomaFacil()
+    
