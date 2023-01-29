@@ -8,7 +8,7 @@ def MenuDivisão():
     
 def MenuDivisãoEscolha():
     print(f'[1]: Fácil')
-    print(f'[2]: Finalizar')
+    print(f'[2]: Voltar para o Menu Principal')
     print('_'*100)
     
 def DivisãoFacil():
@@ -31,18 +31,14 @@ def DivisãoFacil():
                     conta = Numero1/Numero2
                     conta = str(conta)
                     if len(conta) > 4:
-                        print('Mudo maior que 4')
-                        print(conta)
                         Numero1 = random.randint(1,9)
                         Numero2 = random.randint(1,Numero1) 
                     else:
                         break
                 if Numero1 == Numero2:
-                    print('Mudo igual ')
                     Numero1 = random.randint(1,9)
                     Numero2 = random.randint(1,Numero1)
                 elif Numero2 == 1:
-                    print('Mudo igual 1')
                     Numero2 = random.randint(1,Numero1)
                 else:
                     if Conta == 0:
@@ -51,12 +47,10 @@ def DivisãoFacil():
                         break
                     elif Conta > 0:
                         if UltimaContaNumero1 != Numero1 and UltimaContaNumero2 != Numero2 :    
+                            UltimaContaNumero1 = Numero1
+                            UltimaContaNumero2 = Numero2
                             break
-                        if UltimaContaNumero1 == Numero1 and UltimaContaNumero2 == Numero2 :    
-                            print(f'{Numero1}/{Numero2} trocou')
                             
-                            
-            
             print(f'{Conta+1}: {Numero1}/{Numero2} = ?') 
             while True:
                 try:
@@ -82,14 +76,14 @@ def DivisãoFacil():
                             print()
                             print('#'*100)
                             print(f'{Numero1}/{Numero2} = ?'.center(100)) 
-                            print('Mais'.center(100))
+                            print('Mais + '.center(100))
                             print('#'*100)
                         elif resposta > Numero1/Numero2:
                             erros += 1
                             print()
                             print('#'*100)
                             print(f'{Numero1}/{Numero2} = ?'.center(100)) 
-                            print('Menos'.center(100))
+                            print('Menos - '.center(100))
                             print('#'*100)
     print(f'Você errou: {erros} vezes')
     

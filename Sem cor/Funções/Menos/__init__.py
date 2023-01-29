@@ -53,14 +53,14 @@ def SubtraçãoFacil():
                             print()
                             print('#'*100)
                             print(f'{Numero1}-{Numero2} = ?'.center(100)) 
-                            print('Mais'.center(100))
+                            print('Mais +'.center(100))
                             print('#'*100)
                         elif resposta > Numero1-Numero2:
                             erros += 1
                             print()
                             print('#'*100)
                             print(f'{Numero1}-{Numero2} = ?'.center(100)) 
-                            print('Menos'.center(100))
+                            print('Menos -'.center(100))
                             print('#'*100)
     print(f'Você errou: {erros} vezes')
 
@@ -101,14 +101,14 @@ def SubtraçãoFacilNegativo():
                                 print()
                                 print('#'*100)
                                 print(f'{Numero1}-{Numero2} = ?'.center(100)) 
-                                print('Mais'.center(100))
+                                print('Mais +'.center(100))
                                 print('#'*100)
                             elif resposta > Numero1-Numero2:
                                 erros += 1
                                 print()
                                 print('#'*100)
                                 print(f'{Numero1}-{Numero2} = ?'.center(100)) 
-                                print('Menos'.center(100))
+                                print('Menos -'.center(100))
                                 print('#'*100)
     print(f'Você errou: {erros} vezes')
     
@@ -151,14 +151,14 @@ def SubtraçãoMédio():
                                 print()
                                 print('#'*100)
                                 print(f'{Numero1}-{Numero2} = ?'.center(100)) 
-                                print('Mais'.center(100))
+                                print('Mais +'.center(100))
                                 print('#'*100)
                             elif resposta > Numero1-Numero2:
                                 erros += 1
                                 print()
                                 print('#'*100)
                                 print(f'{Numero1}-{Numero2} = ?'.center(100)) 
-                                print('Menos'.center(100))
+                                print('Menos -'.center(100))
                                 print('#'*100)
     print(f'Você errou: {erros} vezes')
     
@@ -199,14 +199,14 @@ def SubtraçãoMédioNegativo():
                                 print()
                                 print('#'*100)
                                 print(f'{Numero1}-{Numero2} = ?'.center(100)) 
-                                print('Mais'.center(100))
+                                print('Mais +'.center(100))
                                 print('#'*100)
                             elif resposta > Numero1-Numero2:
                                 erros += 1
                                 print()
                                 print('#'*100)
                                 print(f'{Numero1}-{Numero2} = ?'.center(100)) 
-                                print('Menos'.center(100))
+                                print('Menos -'.center(100))
                                 print('#'*100)
     print(f'Você errou: {erros} vezes')    
 
